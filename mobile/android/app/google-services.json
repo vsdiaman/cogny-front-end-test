@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1020108150660",
+    "project_id": "cognyshoes-d2350",
+    "storage_bucket": "cognyshoes-d2350.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020108150660:android:8b023e23fded035661efd1",
+        "android_client_info": {
+          "package_name": "cogny.mobile.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXGeUQ9UgJsKWKQj_cFbpxokHSsFeJVa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -23,10 +23,21 @@ buildscript {
         google()
         mavenCentral()
     }
+
+    plugins {
+    // ...
+        id 'cogny.mobile.app'
+        // Add the Google services Gradle plugin
+        id 'com.google.gms.google-services'
+    // Add the dependency for the Google services Gradle plugin
+        id 'com.google.gms.google-services' version '4.4.2' apply false
+
+    }
     dependencies {
         classpath('com.android.tools.build:gradle:7.2.1')
         classpath('com.facebook.react:react-native-gradle-plugin')
         classpath('de.undercouch:gradle-download-task:5.0.1')
+        implementation platform('com.google.firebase:firebase-bom:33.1.2')
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
